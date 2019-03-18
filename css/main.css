@@ -164,19 +164,21 @@ text-align: center;
   margin-right: 8px;
 }
   .card-author{
-
+    display: grid;
+    justify-items: center;
+    align-items: center;
     width: 10vw;
 
   }
   .minicard{
     width: 20vw;
-    margin: 10px 0px;
+    margin: 10px auto;
     border-radius: 10px;
   }
   .minicard img{
     width: 18vw;
     float: left;
-
+    margin: 10px auto;
   }
   .minicard p{
     font-size: 13px;
