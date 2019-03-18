@@ -164,12 +164,11 @@ text-align: center;
   margin-right: 8px;
 }
   .card-author{
-    background-color: indigo;
+
     width: 10vw;
 
   }
   .minicard{
-    background-color: rgb(226, 154, 154);
     width: 20vw;
     margin: 10px 0px;
     border-radius: 10px;
