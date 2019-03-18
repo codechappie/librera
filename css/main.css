@@ -1,0 +1,153 @@
+
+* input{
+    outline: none;
+}
+
+.user-header{
+  display: grid;
+  height: 60px;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+.user-header .logo{
+  padding-left: 5vw;
+  }
+.user-header .logo img{
+  width: 200px;
+}
+
+.user-header .user{
+  padding-right: 5vw;
+  float: right;
+}
+.user-header .user a img{
+  width: 30px;
+  margin: 0px 5px;
+  float: right;
+}
+
+.searcher{
+    display: grid;
+    justify-items: center;
+    margin-bottom: 60px;
+}
+.searcher input{
+    margin: 0px 100px;
+    padding: 10px 20px;
+    width: 60%;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(211, 210, 210);
+    border-radius: 5px;
+    text-align: center;
+}
+.searcher input:hover, .searcher input:enabled{
+  margin: 0px 100px;
+  padding: 10px 20px;
+  width: 60%;
+  background-color: rgb(245, 245, 245);
+  color: black;
+}
+
+
+.menu{
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 90vw;
+  margin: 0px auto;
+  padding: 10px;
+  justify-items: center;
+  align-items: center;
+}
+.content-dropdown{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.content-dropdown .btn-group{
+  width: 22vw;
+  margin: 0px auto;
+}
+.menu .btn{
+  background-color: rgb(233, 233, 233);
+  color: black;
+  border: none;
+  padding: 15px;
+  margin: 0px auto;
+}
+.menu .btn:focus{
+  box-shadow: none;
+}
+
+
+
+.slick-carusel {
+  width: 90vw;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.slick-carusel h4{
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+.slick-carusel .center > div{
+    
+}
+
+.btn-user{
+  width: 100px;
+  float: right;
+}
+.carusel-info{
+  height: 50px;
+}
+.carusel-info .title{
+  float: left;
+}
+.carusel-info .mas a{
+  float: right;
+  margin-right: 20px;
+  text-decoration: none;
+  color: rgb(182, 182, 182);
+}
+.card{
+
+    margin: 0px 10px;
+}
+.card h3{
+  padding-top: 10px;
+font-size: 10px;
+text-align: center;
+}
+.card p{
+font-size: 12px;
+text-align: center;
+}
+
+/* Color of the arrows */
+.slick-slider .slick-arrow {
+    border: solid rgb(51, 51, 51);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    margin-top: -10px;
+    padding: 3px;
+  }
+  .slick-slider .slick-arrow::before {
+    content: none;
+  }
+  .slick-slider .slick-next {
+    transform: rotate(-45deg);
+  }
+  .slick-slider .slick-prev {
+    transform: rotate(135deg);
+  }
+  .slick-slider .slick-dots li button {
+    background-color: #FFF;
+    border-radius: 50%;
+  }
+  .slick-slider .slick-dots li button::before {
+    display: none;
+  }
+  .slick-slider .slick-dots li.slick-active button {
+    background: transparent;
+    border: 3px solid #FFF;
+    border-radius: 50%;
+  }
