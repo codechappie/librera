@@ -29,7 +29,7 @@
 .searcher{
     display: grid;
     justify-items: center;
-    margin-bottom: 60px;
+    margin-bottom: 10px;
 }
 .searcher input{
     margin: 0px 100px;
@@ -80,18 +80,14 @@
 
 
 .slick-carusel {
-  width: 90vw;
+  width: 93vw;
     margin: 0 auto;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 .slick-carusel h4{
-  padding-left: 20px;
-  margin-bottom: 20px;
+  padding-left: 10px;
+  margin-right: 8px;
 }
-.slick-carusel .center > div{
-    
-}
-
 .btn-user{
   width: 100px;
   float: right;
@@ -104,7 +100,7 @@
 }
 .carusel-info .mas a{
   float: right;
-  margin-right: 20px;
+  margin-right: 10px;
   text-decoration: none;
   color: rgb(182, 182, 182);
 }
@@ -118,11 +114,11 @@
 }
 .card h3{
   padding-top: 10px;
-font-size: 10px;
+font-size: 12px;
 text-align: center;
 }
 .card p{
-font-size: 12px;
+font-size: 10px;
 text-align: center;
 }
 
@@ -159,10 +155,13 @@ text-align: center;
   
 
 .sc-author{
-  padding: 50px 0px;
-  width: 90vw;
+  width: 93vw;
     margin: 0 auto;
-    margin-top: 40px;
+    margin-top: 10px;
+}
+.sc-author h4{
+  padding-left: 10px;
+  margin-right: 8px;
 }
   .card-author{
     background-color: indigo;
