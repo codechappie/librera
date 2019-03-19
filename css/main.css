@@ -253,9 +253,9 @@ text-align: center;
   margin-left: -5px;
 }
 .dropdown-menu{
-  width: 100vw!important;
+  width: 90vw!important;
   font-size: 14px;
-  margin-left: -5px;
+  margin: 0px auto!important;
 }
 .dropdown-item a{
   text-align: right;
