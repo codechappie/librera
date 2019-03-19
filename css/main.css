@@ -234,24 +234,31 @@ text-align: center;
   grid-template-columns: 1fr;
   width: 90vw;
   margin: 0px auto!important;
-  padding: 10px;
+  padding: 2px;
 }
 .content-dropdown{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
   margin: 0px auto!important;
 }
 .content-dropdown .btn-group{
-  width: 25vw;
-  margin: 0px auto!important;
+  width: 90vw;
+  
 }
 .menu .btn{
-  background-color: rgb(245, 245, 245);
+  background-color: rgb(241, 241, 241);
   color: black;
   border: none;
-  padding: 5px;
-  font-size: 10px;
-  margin: 0px auto!important;
+  font-size: 12px;
+  margin-left: -5px;
+}
+.dropdown-menu{
+  width: 100vw!important;
+  font-size: 14px;
+  margin-left: -5px;
+}
+.dropdown-item a{
+  text-align: right;
 }
 
 
@@ -261,6 +268,7 @@ text-align: center;
 
 .sc-author{
    width: 92vw;
+   margin-bottom: 10px;
 }
   .card-author{
     width: 30vw;
