@@ -172,6 +172,7 @@ text-align: center;
     justify-items: center;
     align-items: center;
     width: 10vw;
+    
   }
   .minicard{
     width: 20vw;
@@ -216,15 +217,17 @@ text-align: center;
     
 .searcher{
     width: 100%!important;
-}
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
 .searcher input{
     margin: 0px auto!important;
     width: 70vw!important;
     font-size: 12px;
     padding: 5px!important;
     text-align: center;
-    border: 1px solid rgb(241, 241, 241);
-    background-color: rgb(247, 245, 245)!important;
+    border: 1px solid rgb(236, 236, 236);
+    background-color: rgb(255, 255, 255)!important;
 }
 
 
@@ -232,7 +235,7 @@ text-align: center;
 
 
 .slick-carusel {
-  width: 93vw;
+  width: 99vw;
     margin: 0 auto;
     margin-top: 20px;
 }
@@ -245,6 +248,12 @@ text-align: center;
 }
 .carusel-info{
   height: 30px;
+}
+.card{
+  border: 1px solid #fff;
+  margin: 0px 20px;
+  cursor: pointer;
+  margin-left: -12px;
 }
 .card h3{
 padding-top: 10px;
@@ -300,7 +309,7 @@ text-align: center;
 
 
 .sc-author{
-   width: 92vw;
+   width: 99vw;
    margin-bottom: 10px;
 }
 .c-author{
@@ -309,10 +318,14 @@ text-align: center;
   .card-author{
     padding-top: 0px;
     width: 30vw;
+    margin: 0px 20px;
+    cursor: pointer;
+    margin-left:
+    -9px;
   }
   .minicard{
     width: 30vw;
-
+    background-color: indigo;
   }
   .minicard img{
     width: 28vw;
